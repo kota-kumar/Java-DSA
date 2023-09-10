@@ -1,5 +1,5 @@
 package Carryforward;
-import java.util.*
+import java.util.*;
 public class pickfromboth {
     public static void main(String[] args) {
     Scanner temp = new Scanner(System.in);
