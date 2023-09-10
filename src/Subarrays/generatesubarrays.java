@@ -21,7 +21,7 @@ public class generatesubarrays {
                 ans[c]=new int[j-i+1];
                 int size=0;
                 for(int k =i;k<=j;k++){
-                    ans[c][size]=A[i];
+                    ans[c][size]=A[k];
                     size++;
                 }
                 c++;
