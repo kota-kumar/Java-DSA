@@ -10,24 +10,24 @@ public class longestpalindromestring {
         System.out.printf(ans);
     }
    public static String palindrome(String A){
-        int n = A.length();
-        if(A==null || n<1){
-            return "";
-        }
-        int s =0;
-        int e =0;
+       int n = A.length();
+       if(A==null || n<1){
+           return "";
+       }
+       int s =0;
+       int e =0;
        for (int i = 0; i < n; i++) {
-           int oddlen = maxsub(A, i, i);
-           int evenlen = maxsub(A, i, i+1);
-           int len = Math.max(oddlen, evenlen);
+           int odd = lenstring(A, i, i);
+           int even = lenstring(A, i, i+1);
+           int len = Math.max(odd, even);
            if(len>e-s+1){
                s = i-(len-1)/2;
-               e =i+len/2;
+               e = i+n/2;
            }
        }
        return A.substring(s, e+1);
    }
-   public static int maxsub(String A, int left, int right){
+   public static int lenstring(String A, int left, int right){
         while(left>=0 && right<A.length() && A.charAt(left)==A.charAt(right)){
             left--;
             right++;
