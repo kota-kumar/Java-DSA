@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9526568-5a19-4c5e-878c-dfd93d890947" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/twopointers/threesum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/longestpalindromestring.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strings/Strings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/togglecase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694525364566</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="commit">
+      <created>1694769908963</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1694769908963</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -335,6 +341,9 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Java_DSA$Main.ic" NAME="Main Coverage Results" MODIFIED="1693131805063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Java_DSA$paircount.ic" NAME="paircount Coverage Results" MODIFIED="1694769748695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Carryforward.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/Java_DSA$painterspartition.ic" NAME="painterspartition Coverage Results" MODIFIED="1693394933169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Sorting.*</FILTER>
     </SUITE>
