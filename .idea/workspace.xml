@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9526568-5a19-4c5e-878c-dfd93d890947" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/Sorting/countsort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strings/reversestring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strings/reversewordstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/longestprefixstring.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strings/longestpalindromestring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/longestpalindromestring.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694875740608</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="commit">
+      <created>1694920947241</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1694920947241</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
