@@ -8,16 +8,12 @@ public class longestsubstringwithoutrepeating {
         System.out.println(ans);
     }
     public static int unique(String A){
-        int n = A.length();
-        if(n==1){
-            return 1;
-        }
-        HashSet<Character> hs = new HashSet<>();
-        int ans = 0;
-        int max=0;
-        int s =0;
-        int e =0;
-        while(s<n){
+            int n  = A.length();
+            int s =0;
+            int e =0;
+            int ans=0;
+            HashSet<Character> hs = new HashSet<>();
+       while(s<n){
             if(!hs.contains(A.charAt(s))){
                 hs.add(A.charAt(s));
                 s++;
@@ -25,9 +21,8 @@ public class longestsubstringwithoutrepeating {
                 hs.remove(A.charAt(e));
                 e++;
             }
-
-        max=Math.max(hs.size(), max);
+            ans=Math.max(hs.size(), ans);
         }
-        return max;
+       return ans;
     }
 }
